@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9fb;
+    color: #333;
+}
+
+header {
+    background-color: #2d3e50;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+header a {
+    color: #ffbd39;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 15px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #2d3e50;
+    margin-top: 0;
+    font-size: 1.8em;
+    cursor: pointer; /* Cursor indicates it's clickable */
+}
+
+.section-content {
+    display: none; /* Hide section content by default */
+}
+
+.section-content.open {
+    display: block; /* Show content when active */
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #555;
+}
+
+a {
+    color: #2d3e50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    float: left; /* Aligns the image to the left */
+    width: 170px; /* Set the desired width */
+    height: 150px; /* Set the desired height to match width for a circle */
+    border-radius: 50%; /* Makes the image circular */
+    margin-right: 50px; /* Adds space to the right of the image */
+}
+
+header {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+}
+
+header img {
+    float: none; /* Remove float to allow flexbox alignment */
+    width: 200px; /* Set the desired width */
+    height: 220px; /* Set the desired height to maintain aspect ratio */
+    border-radius: 50%; /* Makes the image circular */
+    margin-right: 15px; /* Adds space to the right of the image */
+}
+
+h1 {
+    margin: 0; /* Remove default margin for h1 */
+}
+
+p {
+    margin: 5px 0 0; /* Add some spacing above the paragraph */
+}
+.section-content {
+    display: none; /* Hide content by default */
+}
+
+.section-content.open {
+    display: block; /* Show content when the section is open */
+}
